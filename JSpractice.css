@@ -1,0 +1,20 @@
+h1 {
+  font-family: cursive;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 24;
+  color: #FF0000;
+}
+
+footer {
+  background-color: #000000;
+}
+
+#footText{
+  color: #ffffff;
+  font-family: monospace;
+  text-align: right;
+  padding: 20px 60px;
+}

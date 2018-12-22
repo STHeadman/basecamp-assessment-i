@@ -1,10 +1,26 @@
+<!DOCTYPE HTML>
+<head>
+  <title>Java Script Testing</title>
+  <link rel="stylesheet" href="JSpractice.css">
+</head>
+<h1>Javascript Practice</h1>
+<body>
+  <p>Please open the console by pressing F12, then clicking console once the tab opens.</p>
 <script>
-  var age = parseFloat(prompt("what is your age"));
-  var num = 5;
-
   var name = prompt("What is your name?");
+  var age = parseFloat(prompt("what is your age"));
+  var adult = (age > 18);
+  var rentCar = (age >= 25);
+  var seniorDiscount = (age > 60);
 
-  console.log("Age: " +  age);
   console.log("Hello " + name);
+  console.log("Age: " +  age);
+  console.log("Are you of age: " + adult);
+  console.log("Can you rent a car: " + rentCar);
+  console.log("Can you get a senior Discount:" + seniorDiscount);
 
 </script>
+</body>
+<footer>
+  <p id="footText" >Copyright Spencer Headman 2018</p>
+</footer>
