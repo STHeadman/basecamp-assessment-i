@@ -19,9 +19,15 @@ var simpleMethod = {
     return a/b;
   },
 };
+
+var simpleArray = ["apple","orange","banana","pear"];
+simpleArray[4] = "pine apple";
+
 console.log(simpleMethod.add(2,3));
 console.log(simpleMethod.subtract(2,3));
 console.log(simpleMethod.multiply(2,3));
 console.log(simpleMethod.division(2,3));
 console.log(simpleObject.firstName + " " + simpleObject.lastName);
+console.log(simpleArray[2]);
+console.log(simpleArray[4]);
 </script>
